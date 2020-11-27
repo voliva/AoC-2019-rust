@@ -8,7 +8,7 @@ fn main() {
     }
     let day: u8 = args[1].parse().unwrap();
     let parts: u8 = if args.len() > 2 {
-        args[1].parse().unwrap()
+        args[2].parse().unwrap()
     } else {
         3
     };

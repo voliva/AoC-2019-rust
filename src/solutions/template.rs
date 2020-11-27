@@ -13,10 +13,10 @@ impl Solver<InputType, Output1Type, Output2Type> for Problem {
             .filter_map(|x| x.ok())
             .collect()
     }
-    fn solve_first(&self, input: &InputType) -> Result<Output1Type, String> {
+    fn solve_first(&self, _input: &InputType) -> Result<Output1Type, String> {
         todo!()
     }
-    fn solve_second(&self, input: &InputType) -> Result<Output2Type, String> {
+    fn solve_second(&self, _input: &InputType) -> Result<Output2Type, String> {
         todo!()
     }
 }
